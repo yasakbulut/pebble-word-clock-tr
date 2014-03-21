@@ -1,0 +1,40 @@
+{
+    "versionLabel": "1.0",
+    "uuid": "6d1daf1e-d957-4c3c-8779-fe4acf787b73",
+    "appKeys": {},
+    "longName": "Turkish Word Clock",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "Word Clock TR",
+    "companyName": "Yasa Akbulut",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "ICON",
+                "file": "images/icon_template.png"
+            },
+            {
+                "type": "png",
+                "name": "ON_RESOURCE",
+                "file": "images/black.png"
+            },
+            {
+                "type": "png",
+                "name": "OFF_RESOURCE",
+                "file": "images/white.png"
+            },
+            {
+                "type": "png",
+                "name": "TIME_MASKS",
+                "file": "images/timeMask.png"
+            }
+        ]
+    }
+}

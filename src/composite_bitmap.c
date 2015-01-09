@@ -31,6 +31,13 @@ static void layer_update_callback(Layer *layer, GContext* ctx) {
   struct tm* now = localtime(&rawtime);
   int h = ((now->tm_hour%12)==0)?12:(now->tm_hour%12);
   int m = now->tm_min;
+  int d = now->tm_mday;
+  int mon = now->tm_mon;
+  if (d == 9 && mon == 0) {
+    printf("happy birthdy mr. akbulut");
+    printf("you're the one");
+    printf("http://piq.codeus.net/static/media/userpics/piq_25855_400x400.png is for you");
+  }
   graphics_draw_bitmap_in_rect(ctx, off_image, off_image->bounds);
   for (int i = 0; i < 12; i += 1) {
     for (int j = 0; j < 12; j += 1) {
